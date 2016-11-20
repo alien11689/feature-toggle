@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.alien11689.osgi.featuretoogle</groupId>
-    <artifactId>feature-toggle</artifactId>
+    <artifactId>feature-toggle-parent</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <properties>
         <osgi.version>6.0.0</osgi.version>
