@@ -17,6 +17,9 @@
         <module>feature-toggle-api</module>
         <module>feature-toggle-impl</module>
         <module>feature-toggle-demo</module>
+        <module>feature-toggle-itest</module>
+        <module>feature-toggle-karaf</module>
+        <module>featuretoogle-karaf-feature</module>
     </modules>
 
     <dependencyManagement>
