@@ -1,0 +1,2 @@
+-include: ../common.bnd
+Export-Package: com.github.alien11689.osgi.featuretoogle.api

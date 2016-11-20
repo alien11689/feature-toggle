@@ -1,0 +1,2 @@
+-include: ../common.bnd
+Bundle-Activator: com.github.alien11689.osgi.featuretoogle.impl.FeatureActivator
