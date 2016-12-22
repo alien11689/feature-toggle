@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>com.github.alien11689.osgi.feature-toggle-impl</artifactId>
+    <artifactId>feature-toggle-impl</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>Feature Toggle IMPL</name>
 
@@ -26,7 +26,7 @@
         </dependency>
         <dependency>
             <groupId>com.github.alien11689.osgi.featuretoogle</groupId>
-            <artifactId>com.github.alien11689.osgi.feature-toggle-api</artifactId>
+            <artifactId>feature-toggle-api</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
@@ -34,17 +34,5 @@
             <artifactId>lombok</artifactId>
         </dependency>
     </dependencies>
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>biz.aQute.bnd</groupId>
-                <artifactId>bnd-maven-plugin</artifactId>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jar-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>
